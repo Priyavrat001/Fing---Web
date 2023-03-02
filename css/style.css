@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* #navbar::before{
+background: url(../img/back.jpg) no-repeat center center;
+height: 100%;
+width: 100%;
+opacity: 0.4;
+z-index: -1;
+} */
+#navbar img{
+width: 23px;
+}
+#navbar ul{
+
+}
+#navbar ul li{
+
+}
+#navbar ul li a{
+
+}
+#navbar ul li a:hover{
+
+}
+
