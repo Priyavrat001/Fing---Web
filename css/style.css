@@ -33,6 +33,8 @@
 
 #navbar ul {
     display: flex;
+    width: 64vw;
+
 }
 
 #navbar ul li {
@@ -81,41 +83,32 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 1378px;
+    height: 1328px;
     opacity: 0.4;
     z-index: -1;
 
 }
 
-.search-btn {
-    display: flex;
-    flex-direction: row-reverse;
-    position: relative;
-    right: 90;
-    left: 41vw;
-    padding: 3px 8px;
+.search-btn input {
+    padding: 10px;
+    width: 215px;
+    margin-right: 10px;
+    font-size: 1rem;
+    border: 2px solid;
+    border-radius: 10px;
 }
 
 .search {
-    padding: 8px;
-    border: 2px solid black;
-    border-radius: 7px;
-    cursor: pointer;
-    background-color: #6363ff;
-    color: white;
+    padding: 11px;
+    border: 2px solid;
+    border-radius: 8px;
+    font-size: 1rem;
 }
 
 .search:hover {
-    background-color: blueviolet;
-}
+    background-color: aliceblue;
+    cursor: pointer;
 
-.search-btn input {
-    padding: 5px;
-    border: 2px solid white;
-    border-radius: 10px;
-    font-size: 1.0rem;
-    margin-right: 9px;
-    width: 214px;
 }
 
 .box-main {
@@ -160,8 +153,12 @@ span {
 }
 
 footer {
-    height: 500px;
     display: flex;
+    height: 100px;
     justify-content: center;
     align-items: center;
 }
+.youtube-channel img:hover{
+    cursor: pointer;
+}
+

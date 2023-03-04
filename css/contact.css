@@ -1,0 +1,13 @@
+.heading::before{
+    height: 1275px;
+}
+.form{
+    margin: 20px;
+}
+.form-box{
+    text-align: center;
+    margin: 10px 0;
+}
+.form input{
+    padding: 10px;
+}
