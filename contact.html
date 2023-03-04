@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/utils.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/resp.css">
 </head>
 
 <body>
@@ -28,24 +29,29 @@
     </nav>
     <section class="heading">
     </section>
-    <section class="form t-center">
-        <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    <div class="content">
+
+        <div class="form t-center m-auto">
+            <h2 class="h-primery">Feel free to contact us</h2>
+            <div class="contact-form">
+                <div class="form-box">
+                    <input type="text" placeholder="Enter your name">
+                </div>
+                <div class="form-box">
+                    <input type="text" placeholder="Enter your Email">
+                </div>
+                <div class="form-box">
+                    <input type="text" placeholder="Enter your Phone">
+                </div>
+                <div class="form-box">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="How can we help you!"></textarea>
+                </div>
+                <div class="form-box">
+                    <button class="btn btn-left">Submit</button>
+                </div>
             </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
-    </section>
+        </div>
+    </div>
 </body>
 
 </html>
